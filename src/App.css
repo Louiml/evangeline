@@ -1,0 +1,207 @@
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d2707f;
+  color: #333333;
+}
+
+/* Container styles */
+.register-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #e87183;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: pulse 1s infinite;
+}
+
+/* Heading styles */
+.register-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+/* Form styles */
+.register-form input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: #ff7086;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.register-form button.register-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.register-form button.register-button:hover {
+  background-color: #45a049;
+}
+
+/* Image styles */
+.register-image {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border-radius: 4px;
+}
+
+.register-image:hover {
+  transform: scale(1.05);
+}
+
+/* Additional psychological design */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Seductive psychological design */
+.register-container {
+  background-color: #e87183;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ff647c;
+}
+
+.register-heading {
+  color: #ffffff;
+}
+
+.register-form input {
+  border-color: #e1435b;
+  outline: none;
+  color: #ffffff;
+  transition: border-color 0.3s ease;
+}
+
+.register-form input:focus {
+  border-color: #ff3d5a;
+}
+
+.register-form button.register-button {
+  background-color: #ff647c;
+  transition: background-color 0.3s ease;
+}
+
+.register-form button.register-button:hover {
+  background-color: #ff3d5a;
+}
+
+.register-image {
+  background-color: #e87183;
+  border: 2px solid #ff647c;
+}
+
+.personality-container {
+  background-color: #dc7a88;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.personality-title {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.register-id input[type="text"],
+.register-id select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffc1c8;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.personality-country-title {
+  font-size: 17px;
+  color: #ffffff;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.personality-marginBottom {
+  margin-bottom: 10px;
+}
+
+.personality-hobbies label {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #ffeff1;
+  color: #e87183;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.personality-hobbies label:hover {
+  background-color: #ffcad2;
+}
+
+.register-hobbies input[type="radio"]:checked + label {
+  background-color: #e87183;
+  color: #fff;
+}
+
+.personality-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f47286;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.personality-button:hover {
+  background-color: #ff647c;
+}
+
+.personality-button:focus {
+  outline: none;
+}
