@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/evangeline/static/css/main.ac784eb6.css",
-    "main.js": "/evangeline/static/js/main.1cd626f6.js",
+    "main.css": "/evangeline/static/css/main.e9a94c96.css",
+    "main.js": "/evangeline/static/js/main.dc4d043f.js",
     "static/js/787.71e672d5.chunk.js": "/evangeline/static/js/787.71e672d5.chunk.js",
     "static/media/MainModel.png": "/evangeline/static/media/MainModel.384928b1be87420baecc.png",
+    "static/media/png": "/evangeline/static/media/585e4bf3cb11b227491c339a.73a0bc1f1a3d04cb02ec.png",
     "static/media/Flag-Touiland.svg": "/evangeline/static/media/Flag-Touiland.f883fcd3a3fa6b061e36b1e600acfef4.svg",
     "index.html": "/evangeline/index.html",
-    "main.ac784eb6.css.map": "/evangeline/static/css/main.ac784eb6.css.map",
-    "main.1cd626f6.js.map": "/evangeline/static/js/main.1cd626f6.js.map",
+    "main.e9a94c96.css.map": "/evangeline/static/css/main.e9a94c96.css.map",
+    "main.dc4d043f.js.map": "/evangeline/static/js/main.dc4d043f.js.map",
     "787.71e672d5.chunk.js.map": "/evangeline/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac784eb6.css",
-    "static/js/main.1cd626f6.js"
+    "static/css/main.e9a94c96.css",
+    "static/js/main.dc4d043f.js"
   ]
 }
